@@ -288,9 +288,9 @@ GameObject:
   - component: {fileID: 909532433559134857}
   - component: {fileID: 909532433559134858}
   - component: {fileID: 909532433559134859}
-  - component: {fileID: 909532433559134852}
+  - component: {fileID: 2016457983093470701}
   m_Layer: 0
-  m_Name: Rotation Sticks
+  m_Name: Rotation Sticks Anti Clockwise
   m_TagString: Traps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -371,7 +371,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!95 &909532433559134852
+--- !u!95 &2016457983093470701
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -381,7 +381,7 @@ Animator:
   m_GameObject: {fileID: 909532433559134853}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8a81acb97c05acf48adbf717a16e9dc5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5451db7995d7ebc46bdd93badc982272, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
