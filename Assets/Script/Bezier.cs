@@ -22,17 +22,17 @@ public class Bezier : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Vector3 pointSize = Vector3.one;
+        Vector3 pointSize = Vector3.one * 0.15f;
 
-        for (float i = 0; i < 1.0f; i += 0.025f)
+        for (float i = 0; i < 1.0f; i += 0.05f)
         {
             Gizmos.DrawWireCube(findPointInCurve(i), pointSize);
         }
 
-        Gizmos.DrawSphere(point_0.position, 2.0f);
-        Gizmos.DrawSphere(point_1.position, 2.0f);
-        Gizmos.DrawSphere(handle_0.position, 2.0f);
-        Gizmos.DrawSphere(handle_0.position, 2.0f);
+        Gizmos.DrawSphere(point_0.position, 0.25f);
+        Gizmos.DrawSphere(point_1.position, 0.25f);
+        Gizmos.DrawSphere(handle_0.position, 0.25f);
+        Gizmos.DrawSphere(handle_0.position, 0.25f);
 
         Gizmos.DrawLine(point_0.position, handle_0.position);
         Gizmos.DrawLine(point_1.position, handle_1.position);

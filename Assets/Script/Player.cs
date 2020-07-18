@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
         }
 
         transform.position = curves[curveIndex].findPointInCurve(localProgress);
-        transform.LookAt(curves[curveIndex].findPointInCurve(localProgress + 0.05f));
+        transform.LookAt(curves[curveIndex].findPointInCurve(localProgress + 0.15f));
 
         onMovedForward.Invoke();
     }
